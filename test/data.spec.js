@@ -18,26 +18,29 @@ describe('data', () => {
 
   describe('computeStudentsStats(laboratoria)', () => {
 
-    const { laboratoria } = fixtures;
+    //Borré el const { laboratoria } = fixtures;
 
     it('debería retornar arreglo de students con propiedad campus y propiedad generation', () => {
-      const processed = computeStudentsStats(laboratoria);
+      const processed = computeStudentsStats(fixtures);
+     // console.log(student)
 
       processed.forEach((student) => {
         assert.ok(student.hasOwnProperty('campus'));
         assert.ok(student.hasOwnProperty('generation'));
       });
     });
+    // Se modifica
 
     it('debería retornar arreglo de students con propiedad stats', () => {
-      const processed = computeStudentsStats(laboratoria);
-    
+      const processed = computeStudentsStats(fixtures);
+    //console.log(processed)
+
       processed.forEach( (student, i) => {
         assert.ok(student.hasOwnProperty('stats'));
         assert.isNumber(student.stats.completedPercentage);
         assert.isObject(student.stats.topics);
         assert.isNumber(student.stats.topics[i].completedPercentage);
-        assert.isNumber(student.stats.topics[i].topicDuration);
+        assert.isNumber(student.stats.topics[i].percentageDuration);
         assert.isObject(student.stats.topics[i].subtopics);
         assert.isNumber(student['stats']['topics'][i]['subtopics'][i]['completedPercentage']);
         assert.isString(student['stats']['topics'][i]['subtopics'][i]['type']);
@@ -48,7 +51,7 @@ describe('data', () => {
     describe('student.stats para el primer usuario en data de prueba - ver carpeta data/', () => {
       const processed = computeStudentsStats(fixtures);
 
-      it('debería tener propiedad completedPercentage con valor 89', () => {       
+      it('debería tener propiedad completedPercentage con valor 89', () => {
         assert.equal(processed[0].stats.completedPercentage, 89);
       });
 
@@ -59,11 +62,11 @@ describe('data', () => {
         assert.equal(processed[0].stats.topics['01-Introduccion-a-programacion'].percentageDuration, 79)
       });
 
-      it(`debería tener propiedad subtopics que es un objeto con primera key "0-bienvenida-orientacion" con valor 
+      it(`debería tener propiedad subtopics que es un objeto con primera key "0-bienvenida-orientacion" con valor
       {completado: 1, duracionSubtema: 55, tipo: "lectura"}`, () => {
         const topics = Object.keys(processed[0].stats.topics);
         const subTopics = Object.keys(processed[0].stats.topics[topics[0]].subtopics);
-       
+
           assert.deepEqual(processed[0].stats.topics[topics[0]].subtopics[subTopics[0]], {
             completado: 1,
             duracionSubtema: 55,
@@ -83,7 +86,7 @@ describe('data', () => {
         assert.ok(generation.hasOwnProperty('count'));
       })
     });
-    
+
     describe('generation para la primera generación en data de prueba - ver carpeta data/', () => {
       const processed = computeGenerationsStats(fixtures);
 
@@ -95,9 +98,9 @@ describe('data', () => {
         assert.equal(processed[0].count, 15);
       });
 
-    }); 
+    });
   });
-  
+
   describe('sortStudents(students, orderBy, orderDirection)', () => {
 
     it('debería retornar arreglo de estudiantes ordenado por nombre ASC');
@@ -112,3 +115,4 @@ describe('data', () => {
 
   });
 });
+

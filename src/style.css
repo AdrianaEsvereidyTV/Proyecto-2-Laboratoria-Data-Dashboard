@@ -1,0 +1,9 @@
+* {
+  background-color: #D5C67A;
+  background-attachment: fixed;
+
+}
+body{
+  background-image: -moz-repeating-linear-gradient('../css/img/Lab-back.jpg');
+
+}
