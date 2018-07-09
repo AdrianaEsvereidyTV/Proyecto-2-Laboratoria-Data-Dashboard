@@ -1,60 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Dashboard</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="nav-wrapper">
-           <img class="responsive-img" src="imagen/laboratoria_l.png" >
-        </div>
-          <ul id="nav-mobile" class="right hide-on-me-and-down">
-              <li>Bienvenid@<img src="imagen/Lucile_TM.jpg" alt="" class="circle responsive-img"></li>
-              <li><a href="">Inicio</a></li>
-              <li><a href="">Acerca</a></li>
-              <li><a href="">Contacto</a></li>
-           </ul>
-      </nav>
-    </header>
 
-    <main>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Data Dashboard</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
     <div class="row">
-
-        <div class="col s3">
-            <div class="group">
-                <label for="campus">Elige la sede:</label>
-                <select class="control" id="campus">
-                  <option value="Sede" disabled selected>Sede</option>
-                </select>
-              </div>
-              <div class="group">
-                <label for="generation">Elige la generación:</label>
-                <select class="form-control" id="select-generation" disabled>
-                  <option value="Generacion" disabled selected>Generación</option>
-                </select>
-              </div>
-          <!-- Grey navigation panel -->
+        <div id="" class="col-sm-4">
+            <button type="button" id="campus-lima">LIMA</button>
         </div>
-
-        <div class="col s9">
-          <!-- Teal page content  -->
+        <div class="col-sm-4">
+            <button type="button" id="campus-mexico">MÉXICO</button>
         </div>
-
+        <div class="col-sm-4">
+            <button type="button" id="campus-santiago">SANTIAGO</button>
+        </div>
       </div>
-    <footer>
-      <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-6">
-       <span class="text-muted"> © July 2018  All rights reserved by Adriana Esvereidy Torres and Luz Adriana Herrera</span>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mt-3">
+        <div class="input-group mb-3">
+          <input type="text" id="name-to-search">
+        </div>
+        <button type="button" id="search">Búsqueda</button>
       </div>
-    </footer>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Sede</th>
+            <th scope="col">Generación</th>
+            <th scope="col">Correo</th>
+            <th scope="col">Progreso</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+      </table>
+      <div id="no-paint"></div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+  <script src="data.js"></script>
+  <script>
+    urlData();
 
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+</body>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <script src="main.js"></script>
-    <script src="data.js"></script>
-  </body>
 </html>
