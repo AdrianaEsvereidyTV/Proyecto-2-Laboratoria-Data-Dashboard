@@ -1,32 +1,32 @@
-// Variable const global para traer la data de Github
-const urlLab = 'https://raw.githubusercontent.com/AdrianaEsvereidyTV/Proyecto-2-Laboratoria-Data-Dashboard/master/data/laboratoria.json';
+const urlLab =
+  'https://raw.githubusercontent.com/AdrianaEsvereidyTV/Proyecto-2-Laboratoria-Data-Dashboard/master/data/laboratoria.json';
 
-// Función global para iterar con ella por el método fetch.
+// Función global para traer la data
 window.onload = () => {
   fetch(urlLab)
     .then(response => response.json())
     .then(res => {
       const allData = computeStudentsStats(res);
-      /* Argumento invoca la función para pasar el valor Lo recibe como res, pero se modifica para los test*/
+      // paintCampus(allData);
+      // paintGenerations(allData);
       paintSearch(allData);
-      paintItereitorCampus(allData);
-    })
-    .catch(error => {
-      // console.log(error);
+      paintCampus(allData);
+      // Argumento(invoca la función) para pasar el valor Lo recibe como response, pero se modifica para los test
     });
+  // .catch((error) => {
+  //  console.log(error);
+  // })
 };
 
 window.getStats = (progress) => {
   let stats = {};
   let topicsArr = progress.temas;
   stats.completePercentage = progress.porcentajeCompletado;
+
   if (progress.porcentajeCompletado < 60) {
     stats.status = 'bajo rendimiento';
   }
-  if (
-    progress.porcentajeCompletado > 60 &&
-    progress.porcentajeCompletado < 90
-  ) {
+  if (progress.porcentajeCompletado > 60 && progress.porcentajeCompletado < 90) {
     stats.status = 'medio rendimiento';
   } else {
     stats.status = 'alto rendimiento';
@@ -53,31 +53,30 @@ window.getStats = (progress) => {
   });
   return stats;
 };
-
-// Función en objeto window para poder manipular la data
+// Se nombra al parametro (la definen)
 window.computeStudentsStats = (laboratoria) => {
   // Se crean estás variables para crear el objeto con las propiedas
+  // se crea una variable let de sedes
   let studentArr = [];
-  let allGenerations = '';
-  let byGenerationContent = '';
-  let students = '';
   let i = 0;
-
-  // se usa un métpdp para traer el nombre de las propiedades nos trae un arreglo{}
+  // se usa un método para traer el nombre de las propiedades nos trae un arreglo{de objeto}
   let campus = Object.keys(laboratoria);
-  // Para pedir los valores del objeto laboratoria
+  // console.log(campus)
+  // se crea una variable let para traer y pedir los valores del objeto laboratoria
   let generationObjectArr = Object.values(laboratoria);
+  // console.log(generationObjectArr);
   // Se define hasta donde se recorre en la data
   // component es una función callback para recorrer los niveles de la data, para iteraciones.
   generationObjectArr.forEach(component => {
     // console.log(component)
-
-    // Va a dar  el valor del objeto component a un arreglo con los nombres de las sedes
-    allGenerations = Object.keys(component.generacion);
-    byGenerationContent = Object.values(component.generacion);
+    // Va a dar  el valor del objeto component a un arreglo con los nombres de las sedes (campus)
+    let allGenerations = Object.keys(component.generacion);
+    // console.log(allGenerations);
+    let byGenerationContent = Object.values(component.generacion);
+    // console.log(byGenerationContent);
     j = 0;
     byGenerationContent.forEach(student => {
-      students = student.estudiantes;
+      let students = student.estudiantes;
       students.forEach(allInfoStudent => {
         let stats = getStats(allInfoStudent.progreso);
         studentArr.push({
@@ -89,45 +88,45 @@ window.computeStudentsStats = (laboratoria) => {
           stats: stats
         });
       });
-      j++;
+      j++; // se va a recorrer uno a uno para recorrer uno a uno la información dentro de generación
     });
-    i++;
+    i++; // va a recorrer uno a uno la información de las sedes
   });
+  // console.log(studentArr);
   return studentArr;
 };
 
-// Función en window para interar en en arreglo que se desarrolla por generaciones
 window.computeGenerationsStats = (laboratoria) => {
-  const generationsArray = [];
-  const obj = {
+  const generationsArray = []; // se crea un array vacío
+  const obj = { // se pide un objeto con las siguientes propiedades
     campus: '',
     generation: '',
     average: 0,
     count: 0,
   };
+  // Se crea la variable para almacenar el promedio de avance por generación
   let average = 0;
+  // se
   for (key in laboratoria) {
     obj.campus = key;
     average = 0;
-    const generations = Object.keys(laboratoria[key].generacion);
+    const generations = Object.keys(laboratoria.key.generacion);
     generations.forEach((generation) => {
       obj.generation = generation;
-      const students = laboratoria[key].generacion[generation].estudiantes;
+      const students = laboratoria.key.generacion.generation.estudiantes;
       for (student in students) {
-        average += students[student].progreso.porcentajeCompletado;
+        average += students.student.progreso.porcentajeCompletado;
         average = average / students.length;
         obj.average = average;
         obj.count = students.length;
         generationsArray.push(obj);
       }
     });
-  }
+  };
   return generationsArray;
 };
 
-window.sortStudents = (students, orderBy, orderDirection) => {
-
-};
+window.sortStudents = (students, orderBy, orderDirection) => {};
 
 window.filterStudents = (students, search) => {
   let searchResult = [];
@@ -139,3 +138,23 @@ window.filterStudents = (students, search) => {
   return searchResult;
 };
 
+window.filterItereitorCampus = (students, search) => {
+  let searchResult = [];
+  students.forEach(resElement => {
+    if (resElement.campus === search) {
+      searchResult.push(resElement);
+    }
+  });
+  return searchResult;
+};
+
+window.filterItereitorGenerations = (students, search) => {
+  let searchResult = [];
+  students.forEach(resElement => {
+    if (resElement.generations === search) {
+      searchResult.push(resElement);
+    }
+  });
+  // console.log(searchResult);
+  return searchResult;
+};
