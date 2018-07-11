@@ -1,7 +1,8 @@
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Open Sans', sans-serif;
   padding-top: 54px;
   color: #868e96;
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/3341cc62847359.5a9dccd3ddee2.jpg)
 }
 
 @media (min-width: 992px) {
@@ -17,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -35,7 +36,8 @@ h2 {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.35rem;
 }
 
@@ -131,7 +133,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #ffe521 !important;
 }
 
 .text-primary {
