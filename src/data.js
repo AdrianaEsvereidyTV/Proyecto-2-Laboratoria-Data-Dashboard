@@ -157,4 +157,5 @@ window.filterItereitorGenerations = (students, search) => {
     }
   });
   // console.log(searchResult);
-  return searchRe
+  return searchResult;
+};
