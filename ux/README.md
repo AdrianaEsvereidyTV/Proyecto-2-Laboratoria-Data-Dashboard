@@ -12,7 +12,7 @@ Al entrevistar a dos de las Training Managers (Lucile TM de Ciudad de México y 
 
 Las TMs son el puente de comunicación entre el staff de Laboratoria y las estudiantes, generan data con las herramientas con las que cuentan y miden el desempeño de cada una de las estudiantes, para que con ello se tomen decisiones con base en esa data que extraen y proceder a generar estrategias para aplicar durante las sesiones con la ayuda del staff.
 
-__Usuarixs:__ Las Training Managers del equipo de Laboratoria son nuestro usuario objetivo. Se tuvo el acercamiento con Lucile TM de Ciudad de México por medio de entrevista presencial, y se planea ampliar a las áreas de Job Placement Manager y Alumni Network Manager.  
+__Usuarixs:__ Las Training Managers del equipo de Laboratoria son nuestro usuario objetivo. Se tuvo el acercamiento con Lucile TM de Ciudad de México por medio de entrevista presencial, y se planea ampliar a las áreas de Job Placement Manager y Alumni Network Manager.
 
 __Necesidades de las usuarias:__ Le interesa acceder a las sedes para poder comparar la información con las otras sedes, requiere la data de las generaciones para hacer otra comparación de los niveles de completitud en cada generación y conocer el dato de cuantas estudiantes siguen activas eso en comparación con cuantas entraron para analizar los resultados de posibles razones de fallo o de complicaciones que hizo que ya no terminaran el bootcamp, a nivel de las estudiantes le interesa conocer el nivel de completitud del LMS.
 
@@ -24,7 +24,7 @@ Se realizaron audios de las entrevistas a los usuarios y se ocupó material comp
 
 ![Audios](Images/Audio.Entrevistas.jpg)
 
-#### Entrevistados (Información obtenida con apoyo del grupo) 
+#### Entrevistados (Información obtenida con apoyo del grupo)
 
 Karla Rejas Training Manager Sede Guadalajara: Liderea el equipo de formación, utiliza data para ver el desempeño de las estudiantes, visualizan la data por medio de spreadsheets. Excel le parece mucha pérdida de tiempo no tiene información actualizada, le gustaría ver porcentajes de las estudiantes para su desempeño.
 
@@ -43,8 +43,8 @@ Ahora que se conoce la información relevante sobre la utilidad de la aplicació
 __1. Cuáles crees que son los datos más importantes a tener en cuenta para el Data Dashboard:__
 
    - Sobre las estudiantes:
-   Tener fácil acceso a la información de contacto de las estudiantes que obtuvieron su R/E y lograr el objetivo de colocarlas en el área laboral, además de conocer los niveles de completitud de cada una, ofrece esa visibilidad de reconocer esfuerzos. 
- 
+   Tener fácil acceso a la información de contacto de las estudiantes que obtuvieron su R/E y lograr el objetivo de colocarlas en el área laboral, además de conocer los niveles de completitud de cada una, ofrece esa visibilidad de reconocer esfuerzos.
+
 
 __2. Lo que los usuarios esperan obtener:__
 
@@ -54,26 +54,26 @@ __2. Lo que los usuarios esperan obtener:__
 __3. Insights:__
    La visión de nuestras usuarias es la de mejorar sus esfuerzos para ofrecer un ambiente lleno de armonía entre el staff de cada sede y las estudiantes de cada generación, mejorando a través de la prueba y error, analizar información de forma objetiva.
 
-__4. Data proporcionada:__ 
+__4. Data proporcionada:__
 
      -_Data relacionada a los cursos:_
       * Nos proporcionan la duración del programa
       * Porcentaje de completado
       * Temas
-      * Subtemas  
+      * Subtemas
 
 __5. Insights del negocio:__
-   La visión de nuestro cliente es la de optimizar los esfuerzos de sus colaboradores ofreciéndoles mejores herramientas para el desempeño de sus actividades y para armonizar los sistemas de control y mantener una actualización más eficiente. 
+   La visión de nuestro cliente es la de optimizar los esfuerzos de sus colaboradores ofreciéndoles mejores herramientas para el desempeño de sus actividades y para armonizar los sistemas de control y mantener una actualización más eficiente.
 
 ### **3. Ideación**
 
 En dupla comenzamos a plasmar en papel un producto sencillo a la vista, de fácil utilización y manipulación, pero con la potencia o posibilidad de dar solución a una necesidad bastante clara, teniendo el acercamiento de nuestra Training Manager de Ciudad de México, y de tener la delicadeza de comprender y aterrizar esa solución a algo funcional.
 
-### **4. Prototipado** 
+### **4. Prototipado**
 
 A continuación se muestra en imágenes el proceso en papel de nuestro sketch de baja fidelidad y con el feedback que se obtenga proceder a uno de mediana fidelidad de igual forma se procede con un prototipo elaborado en Marvel app de baja fidelidad.
 
-Sketch: 
+Sketch:
 ![Primera pantalla](Images/01.sketch.jpg)
 ![Segunda pantalla](Images/02.sketch.jpg)
 ![Tercera pantalla](Images/03.sketch.jpg)
@@ -81,17 +81,14 @@ Sketch:
 ![Quinta pantalla](Images/05.sketch.jpg)
 
 
-Prototipo en Marvel: :floppy_disk: :computer: :space_invader: (https://marvelapp.com/project/3150233/) 
+Prototipo en Marvel: :floppy_disk: :computer: :space_invader: (https://marvelapp.com/project/3150233/)
 
 <<<<<<< HEAD
-![Proto 1]
- (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/001.jpg)
-![Proto 2]
-(https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/002.jpg)
-![Proto 3]
- (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/003.jpg)
-![] (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/004.jpg)
-![] (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/005.jpg)
+![Proto 1](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/001.jpg)
+![Proto 2](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/002.jpg)
+![Proto 3](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/003.jpg)
+![ee](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/004.jpg)
+![aa](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/005.jpg)
 =======
 ![Visualización uno y dos](Images/001.proto.jpg)
 ![Visualización tres y cuatro](Images/002.proto.jpg)
@@ -106,9 +103,9 @@ Prototipo en Marvel: :floppy_disk: :computer: :space_invader: (https://marvelapp
 ****
 
 <<<<<<< HEAD
-![] (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/01.jpg)
-![] (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/02.jpg)
-![] (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/04.jpg)
-![] (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/05.jpg)
+![44](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/01.jpg)
+![11](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/02.jpg)
+![aa](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/04.jpg)
+![66](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/05.jpg)
 =======
 >>>>>>> 46ef8ab8ae28044e2cebeebbd698142f8c8cec81
