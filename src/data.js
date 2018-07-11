@@ -1,3 +1,4 @@
+
 const urlLab =
   'https://raw.githubusercontent.com/AdrianaEsvereidyTV/Proyecto-2-Laboratoria-Data-Dashboard/master/data/laboratoria.json';
 
@@ -156,5 +157,4 @@ window.filterItereitorGenerations = (students, search) => {
     }
   });
   // console.log(searchResult);
-  return searchResult;
-};
+  return searchRe

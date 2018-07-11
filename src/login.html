@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> <!-- esta es libreria boostrap carpeta -->
+    <link rel="stylesheet" href="fontawesome/css/all.css"> <!-- esta carpeta de los iconos -->
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">  <!-- link de tipo de letra -->
+    <title>Data Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container-fluid data"> <!-- este es el contenedor completo -->
+              <div class="row justify-content-between">
+                  <div class="col-4-center">
+                      <img src="imagen/01 (61).png" alt="laboratoria">
+                  </div>
+                  <div class="col-4-center">
+                      <a href="index.html"><i class="fas fa-sign-out-alt fa-lg"> Salir</i></a>
+                  </div>
+              </div>
+      </div>
+    </header>
+
+    <div class="row ejem">
+        <div class="col-3 navpaises">
+          <div class="nav flex-column nav-pills" id="paises-tab" role="tablist" aria-orientation="vertical">
+            <h2>Sedes</h2>
+            <a class="nav-link active" id="chiletab" data-toggle="pill" href="#chileco" role="tab" aria-controls="chile" aria-selected="true">Chile</a>
+            <a class="nav-link" id="mexicotab" data-toggle="pill" href="#mexicoco" role="tab" aria-controls="mexico" aria-selected="false">México</a>
+            <a class="nav-link" id="perutab" data-toggle="pill" href="#peruco" role="tab" aria-controls="peru" aria-selected="false">Peru</a>
+          </div>
+        </div>
+        <div class="col-9 contepaises">
+          <div class="tab-content" id="paises-con">
+            <div class="tab-pane fade show active" id="chileco" role="tabpanel" aria-labelledby="chile-co">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-chile" role="tablist">
+                      <a class="nav-item nav-link active" id="chilegen1tab" data-toggle="tab" href="#chilegen1" role="tab" aria-controls="nav-chilegen1" aria-selected="true">Generación 3</a>
+                      <a class="nav-item nav-link" id="chilegen2tab" data-toggle="tab" href="#chilegen2" role="tab" aria-controls="nav-chilegen2" aria-selected="false">Generación 4</a>
+                      <a class="nav-item nav-link" id="chilegen3tab" data-toggle="tab" href="#chilegen3" role="tab" aria-controls="nav-chilegen3" aria-selected="false">Generación 5</a>
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="con-chile">
+                    <div class="tab-pane fade show active" id="chilegen1" role="tabpanel" aria-labelledby="chilegen1-tab">
+                      <h3>Generación 1</h3>
+
+                    </div>
+                    <div class="tab-pane fade" id="chilegen2" role="tabpanel" aria-labelledby="chilegen2-tab">
+                        <h1>Generación 2</h1>
+
+                    </div>
+                    <div class="tab-pane fade" id="chilegen3" role="tabpanel" aria-labelledby="chilegen3-tab">
+                        <h1>Generación 3</h1>
+
+                    </div>
+                  </div>
+
+            </div>
+            <div class="tab-pane fade" id="mexicoco" role="tabpanel" aria-labelledby="mexico-co">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-mexico" role="tablist">
+                        <a class="nav-item nav-link active" id="mexgen1-tab" data-toggle="tab" href="#mexgen1" role="tab" aria-controls="nav-mexgen1" aria-selected="true">Generación 3</a>
+                        <a class="nav-item nav-link" id="mexgen2-tab" data-toggle="tab" href="#mexgen2" role="tab" aria-controls="nav-mexgen2" aria-selected="false">Generación 4</a>
+                        <a class="nav-item nav-link" id="mexgen3-tab" data-toggle="tab" href="#mexgen3" role="tab" aria-controls="nav-mexgen3" aria-selected="false">Generación 5</a>
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="con-mexico">
+                    <div class="tab-pane fade show active" id="mexgen1" role="tabpanel" aria-labelledby="mexgen1-tab">
+                        <h3>Generación 1</h3>
+                    </div>
+                    <div class="tab-pane fade" id="mexgen2" role="tabpanel" aria-labelledby="mexgen2-tab">
+                        <h3>Generación 2</h3>
+                    </div>
+                    <div class="tab-pane fade" id="mexgen3" role="tabpanel" aria-labelledby="mexgen3-tab">
+                        <h3>Generación 3</h3>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="tab-pane fade" id="peruco" role="tabpanel" aria-labelledby="peri-co">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-peru" role="tablist">
+                      <a class="nav-item nav-link active" id="perugen1tab" data-toggle="tab" href="#perugen1" role="tab" aria-controls="nav-perugen1" aria-selected="true">Generación 3</a>
+                      <a class="nav-item nav-link" id="perugen2tab" data-toggle="tab" href="#perugen2" role="tab" aria-controls="nav-perugen2" aria-selected="false">Generación 4</a>
+                      <a class="nav-item nav-link" id="perugen3tab" data-toggle="tab" href="#perugen3" role="tab" aria-controls="nav-perugen3" aria-selected="false">Generación 5</a>
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="con-peru">
+                    <div class="tab-pane fade show active" id="perugen1" role="tabpanel" aria-labelledby="perugen1-tab">
+                        <h3>Generación 1</h3>
+                    </div>
+                    <div class="tab-pane fade" id="perugen2" role="tabpanel" aria-labelledby="perugen2-tab">
+                        <h3>Generación 2</h3>
+                    </div>
+                    <div class="tab-pane fade" id="perugen3" role="tabpanel" aria-labelledby="perugen3-tab">
+                        <h3>Generación 3</h3>
+                    </div>
+                  </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="container-fluid mb-3">
+      <div class="container">
+
+      </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+  <script src="data.js"></script>
+</html>

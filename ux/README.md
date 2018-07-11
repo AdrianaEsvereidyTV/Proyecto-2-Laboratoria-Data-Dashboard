@@ -83,14 +83,32 @@ Sketch:
 
 Prototipo en Marvel: :floppy_disk: :computer: :space_invader: (https://marvelapp.com/project/3150233/) 
 
+<<<<<<< HEAD
+![Proto 1]
+ (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/001.jpg)
+![Proto 2]
+(https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/002.jpg)
+![Proto 3]
+ (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/003.jpg)
+![] (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/004.jpg)
+![] (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/005.jpg)
+=======
 ![Visualización uno y dos](Images/001.proto.jpg)
 ![Visualización tres y cuatro](Images/002.proto.jpg)
 ![Visualización cinco y seis](Images/003.proto.jpg)
 ![Visualización siete y ocho](Images/004.proto.jpg)
 ![Visualización final](Images/005.proto.jpg)
+>>>>>>> 46ef8ab8ae28044e2cebeebbd698142f8c8cec81
 
 
 ### **5. User testing**
 (Si deseas validar tu propuesta, acércate a tu usuario y que te de feedback con el fin de mejorar tu producto en beneficio del negocio y de tu usuarix).
 ****
 
+<<<<<<< HEAD
+![] (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/01.jpg)
+![] (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/02.jpg)
+![] (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/04.jpg)
+![] (https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/05.jpg)
+=======
+>>>>>>> 46ef8ab8ae28044e2cebeebbd698142f8c8cec81
