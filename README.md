@@ -22,7 +22,7 @@ __Pain points:__ Las herramientas que utiliza diariamente son muy básicas como 
 
 Se realizaron audios de las entrevistas a los usuarios y se ocupó material compartido con compañeras de otros squads.
 
-![Audios](Images/Audio.Entrevistas.jpg)
+![Audios](../ux/Images/Audio.Entrevistas.jpg)
 
 #### Entrevistados (Información obtenida con apoyo del grupo)
 
@@ -74,27 +74,22 @@ En dupla comenzamos a plasmar en papel un producto sencillo a la vista, de fáci
 A continuación se muestra en imágenes el proceso en papel de nuestro sketch de baja fidelidad y con el feedback que se obtenga proceder a uno de mediana fidelidad de igual forma se procede con un prototipo elaborado en Marvel app de baja fidelidad.
 
 Sketch:
-![Primera pantalla](Images/01.sketch.jpg)
-![Segunda pantalla](Images/02.sketch.jpg)
-![Tercera pantalla](Images/03.sketch.jpg)
-![Cuarta pantalla](Images/04.sketch.jpg)
-![Quinta pantalla](Images/05.sketch.jpg)
+![Primera pantalla](../ux/Images/01.sketch.jpg)
+![Segunda pantalla](../ux/Images/02.sketch.jpg)
+![Tercera pantalla](../ux/Images/03.sketch.jpg)
+![Cuarta pantalla](../ux/Images/04.sketch.jpg)
+![Quinta pantalla](../ux/Images/05.sketch.jpg)
+
 
 
 Prototipo en Marvel: :floppy_disk: :computer: :space_invader: (https://marvelapp.com/project/3150233/)
 
-<<<<<<< HEAD
-![Proto 1](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/001.jpg)
-![Proto 2](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/002.jpg)
-![Proto 3](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/003.jpg)
-![ee](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/004.jpg)
-![aa](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/005.jpg)
-=======
-![Visualización uno y dos](Images/001.proto.jpg)
-![Visualización tres y cuatro](Images/002.proto.jpg)
-![Visualización cinco y seis](Images/003.proto.jpg)
-![Visualización siete y ocho](Images/004.proto.jpg)
-![Visualización final](Images/005.proto.jpg)
+![Visualización uno y dos](../ux/Images/001.proto.jpg)
+![Visualización tres y cuatro](../ux/Images/002.proto.jpg)
+![Visualización cinco y seis](../ux/Images/003.proto.jpg)
+![Visualización siete y ocho](../ux/Images/004.proto.jpg)
+![Visualización final](../ux/Images/005.proto.jpg)
+
 
 ### Contacto
 
