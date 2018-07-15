@@ -95,17 +95,12 @@ Prototipo en Marvel: :floppy_disk: :computer: :space_invader: (https://marvelapp
 ![Visualización cinco y seis](Images/003.proto.jpg)
 ![Visualización siete y ocho](Images/004.proto.jpg)
 ![Visualización final](Images/005.proto.jpg)
->>>>>>> 46ef8ab8ae28044e2cebeebbd698142f8c8cec81
+
+### Contacto
+
+My email:[Correo](nossa.musica.07.10@gmail.com)
+
+Github:
+[MyGitHub](https://github.com/AdrianaEsvereidyTV)
 
 
-### **5. User testing**
-(Si deseas validar tu propuesta, acércate a tu usuario y que te de feedback con el fin de mejorar tu producto en beneficio del negocio y de tu usuarix).
-****
-
-<<<<<<< HEAD
-![44](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/01.jpg)
-![11](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/02.jpg)
-![aa](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/04.jpg)
-![66](https://github.com/adrilu7/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/Imagenes/05.jpg)
-=======
->>>>>>> 46ef8ab8ae28044e2cebeebbd698142f8c8cec81
