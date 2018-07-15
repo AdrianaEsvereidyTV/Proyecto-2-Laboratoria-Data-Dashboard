@@ -1,0 +1,107 @@
+
+header img{
+    height: 120px;
+    max-width: 80%;
+}
+.data img{
+    height: 70px!important;
+}
+.data i{
+
+  padding: 25px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background:url(imagen/lab1.jpg) fixed;
+    background-size: cover;
+}
+
+
+.inde {
+  background-color: rgba(166, 167, 161, 0.205);
+}
+.login {
+    background-color: #FFE521;
+    padding: 20px;
+    border-radius:20px;
+    opacity: 0.8;
+    -moz-opacity: 0.6;
+    filter: alpha(opacity=100);
+    -khtml-opacity: 0.8;
+}
+.login h3{
+    background-color: rgba(86, 248, 154,.7);
+    padding: 10px;
+    text-align: center;
+}
+.login form{
+    padding: 5px;
+    text-align: center;
+    font-size: .8em;
+}
+
+button {
+    background-color: rgb(255, 0, 158);
+    padding: 14px;
+    font-weight: bold; /*negritas*/
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+}
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 12px 15px;
+    margin: 8px 0;
+}
+.navpaises {
+  background-color: rgba(86, 248, 154,.7);
+  text-align: center;
+  padding: 0;
+}
+.navpaises .nav-pills .nav-link.active{
+    background-color: rgb(255, 229, 33)!important;
+    color: black;
+}
+.navpaises a{
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.navpaises h2{
+  background-color: rgba(255, 229, 33,.7);
+  padding: 10px;
+}
+.contepaises{
+  padding: 20px 0 10px 20px;
+}
+.contepaises .nav-tabs .nav-link.active{
+    background-color: rgb(255, 229, 33)!important;
+    color: black;
+}
+.contepaises a{
+  color: #000;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+#con-chile, #con-mexico, #con-peru{
+  padding: 20px;
+}
+.ejem{
+  padding: 0;
+  margin: 0;
+}
+
+/* sirve la media para decir apartir de 600 se hara mas grande por lo tanto puse tamaño pequeño a todo*/
+@media only screen and (min-width:600px) {
+    header img{
+        max-width: 100%;
+    }
+    button {
+        width: 50%;
+    }
+    .login form{
+        font-size: 1.5em;
+    }
+  }
