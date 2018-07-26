@@ -11,7 +11,7 @@ window.onload = () => {
       // paintGenerations(allData);
       paintSearch(allData);
       paintCampus(allData);
-      // Argumento(invoca la función) para pasar el valor Lo recibe como response, pero se modifica para los test
+      // Argumento(invoca la función) para pasar el valor lo recibe como response, pero se modifica para los test
     });
   // .catch((error) => {
   //  console.log(error);
